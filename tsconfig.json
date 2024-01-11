@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // ソースマップを有効化
+    "sourceMap": true,
+    // TSはECMAScript 5に変換 ← ES2022に改造
+    "target": "ES2021",
+    // TSのモジュールはES Modulesとして出力 ← ES2022に改造
+    "module": "ES2022",
+    // 厳密モードとして設定
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "baseUrl": "./source",
+  "include": ["./source/**/*"]
+}
